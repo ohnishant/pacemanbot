@@ -118,8 +118,8 @@ impl Split {
             Split::FirstStructure => {
                 if let Some(structure) = structure {
                     match structure {
-                        "Bastion" => "Enter Bastion",
-                        "Fortress" => "Enter Fortress",
+                        "Bastion" => "Bastion of Sebastian",
+                        "Fortress" => "Some Kind of Hogwarts",
                         _ => "",
                     }
                 } else {
@@ -129,17 +129,17 @@ impl Split {
             Split::SecondStructure => {
                 if let Some(structure) = structure {
                     match structure {
-                        "Bastion" => "Enter Bastion",
-                        "Fortress" => "Enter Fortress",
+                        "Bastion" => "Bastion of Sebastian",
+                        "Fortress" => "Some Kind of Hogwarts",
                         _ => "",
                     }
                 } else {
                     ""
                 }
             }
-            Split::Blind => "First Portal",
-            Split::EyeSpy => "Enter Stronghold",
-            Split::EndEnter => "Enter End",
+            Split::Blind => "Time to Lock In",
+            Split::EyeSpy => "Welcome Bajs to the Applications of Forsen's Law 101",
+            Split::EndEnter => "Time to Throw, PogChamp, xqcL",
         }
         .to_string()
     }
